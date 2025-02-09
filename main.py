@@ -1,3 +1,5 @@
+#prueba 1
+
 # Variables globales que se usan en todo el programa
 clientes = []
 mascotas = []
@@ -41,7 +43,7 @@ class SistemaVeterinaria:
             self.edad = edad
             self.historia_clinica = []
             SistemaVeterinaria.Mascota.id_counter += 1
-            #prueba
+            
 
         def agregar_historia(self, cita):  # Método para agregar citas a la historia clínica de la mascota
             self.historia_clinica.append(cita)
