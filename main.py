@@ -44,16 +44,6 @@ class SistemaVeterinaria:
             self.historia_clinica = []
             SistemaVeterinaria.Mascota.id_counter += 1
             
-
-        def agregar_historia(self, cita):  # Método para agregar citas a la historia clínica de la mascota
-            self.historia_clinica.append(cita)
-
-        def mostrar_historial(self):  # Método para mostrar el historial clínico de la mascota
-            if not self.historia_clinica:
-                print("No hay historial clínico para esta mascota.")
-            else:
-                print(f"\nHistorial clínico de {self.nombre}:")
-                for cita in self.historia_clinica:
                     print(f"- Tu mascota {self.nombre} tuvo una cita de {cita.servicio} el día {cita.fecha} a las {cita.hora} con el veterinari@ {cita.veterinario}")
 
     class Cita:
