@@ -1,4 +1,4 @@
-#prueba 1
+#prueba 1 RETO 2 SISTEMA VETERINARIO ELABORADO POR CRISTINA SAMBONI SANDOVAL 2/02/2025
 
 # Variables globales que se usan en todo el programa
 clientes = []
